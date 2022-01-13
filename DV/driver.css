@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#name{
+    padding-top: 79px;
+}
+
+    
+.container-fluid{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+li{
+    list-style: none;
+}
+a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+   
+}
+/* nav*/
+.navbar  .dropdown{
+    position: static;
+}
+.navbar .dropdown-menu{
+    width: 100%;
+    left: 0;
+    right: 0;
+    height: 100px;
+  
+  border: none  ;
+}
+.dropdown-menu1,.dropdown-menu2{
+    display: flex;
+    height: 100%;
+    padding: 2% 9%;
+}
+
+.dropdown-menu1 li a img{
+    width: 67%;
+    padding-right: 24%;
+}
+.dropdown-menu2 li {
+    
+    padding-right: 143px;
+}
+
+.dropdown-menu2 li:hover a{
+    color: #00aa13;
+    text-decoration: none;
+}
+/*nav trai*/
+#dropp{
+    position: absolute;}
+.navbar-right .dropdown{
+    position: relative;
+}
+.navbar-right .dropdown #dropp hr{
+    margin: 0px;
+}
+.navbar-right .dropdown #dropp{
+    height: 61px;
+    border-radius: 6px;
+    box-shadow: -7px 1px 13px -4px rgb(156, 156, 156);
+}
+.navbar-right .dropdown #dropp li:hover a{
+    background-color: #00aa13;
+    color: white;
+}
+
+
+.navbar-default{
+    background-color: white;
+    border-color: white;
+    height: 85px;
+    box-shadow:0 2px 6px 0 rgba(0,0,0,0.3);
+
+}
+
+.navbar-brand>img {
+    display: block;
+    margin-left: 115px;
+    margin-top: 15px;
+}
+.navbar-collapse{
+    margin-top: 22px;
+    font-size: 15px;
+}
+.navbar-default .navbar-nav>.open>a:focus{
+    background-color: rgba(250, 248, 248, 0);
+}
+.navbar-right{
+    margin-right: 121px;
+
+}
+.dropdown-toggle a{
+    padding: 0px 47px;
+    background-color: white;
+    
+}
+.navbar-default .navbar-nav>li>a {
+    color: black;
+    font-size: 16px;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color:#00aa13;
+    background-color: white;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color:#00aa13;
+    transition: 0.5s ease-in;
+}
+.caret{
+    width: 2px ;
+    height: 2px;
+}
+.navbar-default .navbar-nav>.open>a:focus .caret{
+    transform: rotate(-180deg);
+    transition: 0.5s ease-in-out;
+}
+.conten{
+    height: 732px;
+    width: 100%;
+    overflow: hidden;
+}
+.conten img{
+    height: 646px;
+    width: 100%;
+    overflow: hidden;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    z-index: -1;
+    padding: 0;
+    margin: 0;
+}
+.trenh{
+    color: white;
+    
+    padding-top: 15%;
+    margin-left: 8%;
+}
+.trenh1 {
+    display: flex;
+}
+.trenh h1{
+    font-size: 57px;
+    font-family: sans-serif;
+    width: 50%;
+}
+.trenh p{
+    font-family: sans-serif;
+    font-size: 25px;
+    width: 45%;
+}
+.trenh a button{
+    
+    border-radius: 57px;
+    background-color: #045a0b;;
+    border: 1px solid #09aa14;
+    color: white;
+    
+    
+    padding: 6px 8px;
+    width: 196px;
+    height: 46px;
+}
+
+.bt button{
+    margin-left: 3%;
+}
+.trenh a{
+    font-size: 17px;
+}
+
+.conten2{
+    height: 477px;
+    padding-top: 82px;
+    margin-bottom: 45px;
+}
+.conten2p1 {
+    width: 24%;
+    height: 269px;
+   
+    margin-left: 75px;
+    
+
+    padding-left: 1%;
+    font-family: sans-serif;
+    text-align: center;
+}
+.conten2p1 a {
+    list-style: none;
+    text-decoration: none;
+}
+.conten2p1 p{
+    color: #3a3939;
+}
+.conten2p1 img{
+    width: 100px;
+    
+}
+.ngang{
+    display: flex;
+    padding-left: 69px;
+    padding-top: 40px;
+}
+
+.conten2p1:hover h3{
+    color: black;
+   
+   }
+
+.conten2p1 a{
+    padding-left: 9%;
+}
+.conten2 h1{
+    padding-left: 8%;
+    font-size: 46px;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.conten4{
+    display: flex;
+    padding: 17px 102px;
+}
+.conten4 div p{
+    line-height: 27px;
+}
+.conten4 img{
+    width: 45%;
+    border-radius: 16px;
+    margin-top: -16px;
+}
+.conten4 div{
+    width: 50%;
+    padding-left: 123px;
+    line-height: 51px;
+    padding-top: 25px;
+}
+.conten4 div a{
+    border: 1px solid #00aa13;
+    padding: 13px 33px;
+    border-radius: 24px;
+    color: #00aa13;
+    list-style: none;
+    text-decoration: none;
+}
+.conten4 div a:hover{
+    color: white;
+    background-color: #00aa13;
+    transition: 0.4s ease-in;
+
+}
+.conten4 div h1{
+    font-size: 34px;
+    font-family: system-ui ,sans-serif;
+}
+.conten5{
+    background-color: #141b1b;
+    height: 565px;
+    width: 100%;
+}
+.conten5p1{
+    margin-left: 8%;
+    width: 84%;
+    height: 268px;
+    border-bottom: 1px solid white;
+    
+}
+.conten5p2{
+    display: flex;
+    padding-top: 38px;
+}
+.conten5p2 div ul li a{
+    color: rgb(214, 211, 211);
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium',  sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.conten5p2 div ul li a img{
+    width: 151px;
+    margin-left: 25%;
+    padding-bottom: 26px;
+
+}
+.conten5p2 div img{
+    width: 233px;
+}
+#conten5d1{
+    margin-left: 10%;
+    line-height: 30px;
+}
+#conten5d2{
+    margin-left: 4%;
+}
+.conten5p3{
+    text-align: center;
+    color: white;
+    height: 70px;
+    border-bottom: 1px solid #c7c4c4;
+    margin-left: 8%;
+    width: 84%;
+    font-size: 12px;
+    padding-top: 3px;
+}
+.conten5p4{
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    padding-top: 18px;
+}
+.conten5p4 div a img{
+    width: 113px;
+}
+.dropup button{
+    border-radius: 23px;
+    margin-left: 39px;
+    
+    
+}
+.btn .caret {
+    margin-left: 123px;
+}
+.dropdown-menu{
+    float: left;
+}
+.dropup .dropdown-menu {
+    margin-left: 39px;
+    background-color: rgb(46, 46, 46);
+    color: white;
+    border-radius: 20px;
+}
+.glyphicon-ok-sign:before {
+    margin-left: 82px;
+    padding-right: 14px;
+    color: chartreuse;
+}
+.dropup .dropdown-menu li a:hover {
+    background-color: rgb(46, 46, 46);
+    border-radius: 20px;
+    color: white;
+    
+}
+.language{
+    margin-left: 11%;
+
+}
+.btn-default {
+    color: white;
+    background-color: black;
+}
+.btn-default:hover {
+    color: white;
+    background-color: black;
+}
+.open>.dropdown-toggle.btn-default:focus, .open>.dropdown-toggle.btn-default:hover  {
+    color: white;
+    background-color: black;
+    
+}
